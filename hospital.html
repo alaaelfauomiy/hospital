@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital</title>
+    <link rel="stylesheet" href="hospital.css">
+</head>
+<body>
+    <ul>
+        
+        <li><a href="#form"> الحجز</a></li>
+        <li>
+            <a href="#">الأقسام ▾</a>
+            <ul class="dropdown">
+                <li><a href="#sec1" >قسم الطوارئ </a></li>
+                <li><a href="#sec2">قسم الاستقبال</a></li>
+                <li><a href="#sec3">قسم الجراحه</a></li>
+                <li><a href="#sec4">قسم الاشعة</a></li>
+                <li><a href="#sec5">قسم الامراض الباطنه</a></li>
+                <li><a href="#sec6">قسم الاسنان</a></li>
+               
+               
+            </ul>
+        </li>
+        <li><a href="#a"> الصفحه الرئسية</a></li>
+        <a class="logo">مستشفي الشفاء </a>
+        </ul>
+      
+    
+    
+    <div class="gallery" id="a">
+     <p>  معاً من اجل صحة افضل 
+            <br>
+            توفير خدمات طبية عالية الجودة للمرضى
+            <br> تقديم خدمات صحية للمجتمع المحلي والمساهمة في تحسين الصحة العامة
+        </p>
+        <img src="1.jpg" >
+        <img src="2.jpg" >
+        <img src="3.jpg" >
+        <img src="4.jpg" >
+        <img src="5.jpg" >
+        <img src="6.jpg" >    
+    </div>
+    <hr>
+
+<h1> اقسام المستشفي</h1>
+ <div class="card">
+    <div class="photo" id="sec1">
+        <img class="" src="sec1.jpg" alt="">
+
+    </div>
+    <div class="text"> قسم الطوارئ في المستشفي هو المسئول عن تقديم الرعايه الطبيه
+        والجراحيه الفورية للمرضي الذين يحتاجون الي علاج عاجل
+    </div>
+ </div>
+<hr>
+ <div class="card">
+    <div class="photo">
+        <img class="" src="sec2.jpg" alt="">
+
+    </div>
+    <div class="text" id="sec2"> قسم الاستقبال في المستشفيات يلعب دورًا حيويًا في ضمان سير العمليات اليومية بسلاسة
+        <br>
+        بعض مهام قسم الاستقبال:
+        <br>
+    استقبال المرضي والزوار
+    <br>
+    تسجيل المعلومات
+    <br>
+التنسيق بين المرضي والاطباء
+<br>
+ الرد علي الاستفسارات    </div>
+ </div>
+<hr>
+ <div class="card">
+    <div class="photo" id="sec1">
+        <img class="" src="sec3.jpg" alt="">
+
+    </div>
+    <div class="text" id="sec3">قسم الجراحة في المستشفى يلعب دورًا حيويًا في تقديم الرعاية الطبية المتخصصة للمرضى الذين يحتاجون الي تدخل جراحي 
+        <br>
+        بعض المهام الرئيسية لقسم الجراحه
+        <br>
+تشخيص الحالات
+<br>
+
+اجراء العملياات الجراحيه
+<br>
+الرعايه قبل وبعد الجراحه
+    </div>
+ </div>
+<hr>
+<div class="card">
+    <div class="photo" id="sec4">
+        <img class="" src="sec4.jpg" alt="">
+
+    </div>
+    <div class="text" id="sec4"> قسم الأشعة في المستشفيات يلعب دورًا حيويًا في تشخيص وعلاج الأمراض
+        <br> 
+        بعض مهام قسم الاشعه
+        <br> 
+العلاج بالاشعه
+<br> تشخيص الامراض
+        <br> 
+        ارشاد المرضي
+    </div>
+ </div>
+<hr>
+<div class="card">
+    <div class="photo" id="sec5">
+        <img class="" src="sec5.jpg" alt="">
+
+    </div>
+    <div class="text" id="sec5" >قسم الامراض الباطنه يلعب دور مهم في تشخيص الامراض وعلاج الامراض الحاده والمزمنه والتعاون مع التخصصات الاخري
+        
+        <br>
+    
+    </div>
+   
+ </div>
+<hr>
+<div class="card">
+    <div class="photo" id="sec6">
+        <img class="" src="sec6.jpg" alt="">
+
+    </div>
+    <div class="text" id="sec6">قسم الاسنان يقوم بتشخيص وعلاج مشاكل الاسنان 
+        <br>
+        اجراء الجراحات
+        <br>
+
+        التصوير الطبي
+        
+    </div>
+ </div>
+<hr>
+
+
+
+
+
+    <form id="form"><div class="log">
+        <h1>سجل بياناتك</h1>
+        <input type="text" placeholder="الاسم الاول">
+        <input type="text" placeholder="الاسم الثاني">
+        <input type="number" placeholder="السن">
+        <input type="text" placeholder="العنوان">
+        <input type="phone" placeholder="رقم الهاتف">
+        <input type="email" placeholder="ادخل الايميل لتأكيد الحجز">
+       
+       <br><br>
+            <h3>هل خضعت لعمليات جراحية؟</h3>
+            <div>
+                <input id="yes" type="radio" value="yed" name="lang">
+                <label id="yes">نعم</label>
+            </div>
+    
+            <div>
+                <input id="no" type="radio" value="no" name="lang" >
+                <label id="no">لا</label>
+            </div>
+            <hr>
+    <br><br>
+
+            <h3>النوع</h3>
+            <div>
+                <input id="yes" type="radio" value="yed" name="type">
+                <label id="yes">ذكر</label>
+            </div>
+    
+            <div>
+                <input id="no" type="radio" value="no" name="type" >
+                <label id="no">أنثي</label>
+            </div><hr>
+            <br> <br>
+            <h3 for="">اختر القسم</h3>
+            <br>
+        <select>
+           
+            <optgroup>
+                <option value="">قسم الطوارئ</option>
+                <option value="">قسم الاستقبال</option>
+                <option value="">قسم الجراحه</option>
+                <option value="">قسم الاشعة</option>
+                <option value="">قسم الامراض الباطنه</option>
+                <option value="">قسم الاسنان</option>
+
+            </optgroup>
+        </select>
+        <br> <br><br>
+    <button>ارسال</button>
+    </div> </form>
+
+   
+</body>
+</html>
+
+
+
